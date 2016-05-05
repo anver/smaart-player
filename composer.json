@@ -1,0 +1,16 @@
+{
+    "name": "anver/smaart-player",
+    "authors": [
+        {
+            "name": "anver",
+            "email": "anvergdr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SMAARTWEB\\SmaartPlayer\\Admin\\": "Admin/",
+            "SMAARTWEB\\SmaartPlayer\\Front\\": "Public/"
+        }
+    },
+    "require": {}
+}

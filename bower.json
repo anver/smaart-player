@@ -1,0 +1,23 @@
+{
+  "name": "smaart-player",
+  "authors": [
+    "anver <anvergdr@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "videojs-contrib-hls": "^2.0.0",
+    "videojs-youtube": "^2.0.8",
+    "video.js": "^5.9.0"
+   }
+ }

@@ -1,0 +1,24 @@
+.webby-video-wrapper {
+  margin: 0 auto;
+}
+.webby-video-wrapper .webby-video-content {
+  position: relative;
+  padding-bottom: 74.25%;
+  /* 4:3 ratio */
+  height: 0;
+  overflow: hidden;
+}
+.webby-video-wrapper .webby-video-content video,
+.webby-video-wrapper .webby-video-content .video-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.webby-video-wrapper .webby-video-content .video-js,
+.webby-video-wrapper .webby-video-content img.vjs-poster {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+}
